@@ -1,6 +1,6 @@
-﻿### 工具类：JPushUtil.cs
-一个对外方法，用来发送通知！
-public MessageResult sendNotification(HashSet<string> targets, TargetType targetType, string content) 
+﻿### 工具类：JPushUtil.cs  
+一个对外方法，用来发送通知！  
+public MessageResult sendNotification(HashSet<string> targets, TargetType targetType, string content)   
 参数说明：
 ```
 @targets：发送目标的hashset集合，在我们项目中可以表现为用户ID
