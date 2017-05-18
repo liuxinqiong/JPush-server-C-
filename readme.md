@@ -18,5 +18,5 @@ public MessageResult sendNotification(HashSet<string> targets, TargetType target
 ### 测试类：program.cs
 
 ### 环境搭建：
-1.导入官方提供的JPush C# sdk包，名称为：cn.jpush.api.dll
+1.导入官方提供的JPush C# sdk包，名称为：cn.jpush.api.dll  
 2.导入依赖包Newtonsoft.Json.dll，如果项目已存在，请忽略！
