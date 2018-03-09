@@ -14,8 +14,8 @@ namespace JPushTest
 {
     class JPushUtil
     {
-        private static string appKey = "0b90de1c3e044c7102d161dc"; // Your App Key from JPush
-        private static string masterSecret = "4db87b77759b2e707f79c4db"; // Your Master Secret from JPush
+        private static string appKey = "f5e2b59c15255310ed1e9e97"; // Your App Key from JPush
+        private static string masterSecret = "0d3d4a33a76dc12516021a23"; // Your Master Secret from JPush
 
         /*
          * @return MessageResult
@@ -105,7 +105,7 @@ namespace JPushTest
             Options ops = new Options();
             ops.time_to_live = 86400 * 10;//离线消息保存10天,已经是最大值
             //ops.override_msg_id //设置是否覆盖上一条通知
-            //ops.apns_production //True 表示推送生产环境，False 表示要推送开发环境； 如果不指定则为推送生产环境。
+            //ops.apns_production = true;//True 表示推送生产环境，False 表示要推送开发环境； 如果不指定则为推送生产环境。
             //ops.big_push_duration 缓慢推送，把原本尽可能快的推送速度，降低下来，在给定的 n 分钟内，均匀地向这次推送的目标用户推送最大值为 1440。未设置则不是定速推送。
             //ops.sendno 纯粹用来作为 API 调用标识，API 返回时被原样返回，以方便 API 调用方匹配请求与返回。
             return ops;

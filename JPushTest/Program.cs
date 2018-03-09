@@ -24,7 +24,7 @@ namespace JPushTest
                 extras.Add("PCode", 145);
                 extras.Add("Type", 1);
                 extras.Add("Count", 8);
-                jpush.sendNotification(new HashSet<string>() {"335"}, TargetType.ALIAS, "测试，请忽略","告警", extras);
+                jpush.sendNotification(new HashSet<string>() {"333"}, TargetType.ALIAS, "测试，请忽略,DEMO","告警", extras);
             }catch(APIRequestException e){
                 //包含http错误码：如401,404等，http错误信息
                 Console.WriteLine("Error response from JPush server. Should review and fix it. ");
